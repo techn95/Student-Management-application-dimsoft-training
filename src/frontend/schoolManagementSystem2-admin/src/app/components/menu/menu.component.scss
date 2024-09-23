@@ -1,0 +1,60 @@
+.content{
+  padding: 24px;
+}
+
+mat-toolbar{
+  position: relative;
+  z-index: 5;
+}
+
+mat-sidenav-container{
+  height: calc(100vh - 64px);
+}
+
+
+.header-nav .badge-number {
+  position: absolute;
+  inset: -2px -5px auto auto;
+  font-weight: normal;
+  font-size: 12px;
+  padding: 3px 6px;
+}
+
+li{
+  list-style-type: none;
+}
+
+.h-20{
+  max-height: 36px;
+}
+
+ol, ul, dl {
+  margin-top: inherit;
+  margin-bottom: inherit;
+}
+
+.logo {
+  text-decoration: none;
+}
+
+.logo span {
+  font-size: 26px;
+  font-weight: 700;
+  color: #012970;
+  font-family: "Nunito", sans-serif;
+}
+
+.logo img{
+  max-height: 26px;
+}
+
+.toggle-sidebar-btnn {
+  font-size: 32px;
+  padding-left: 10px;
+  cursor: pointer;
+  color: #012970;
+}
+
+.w-20{
+  width: 18%;
+}

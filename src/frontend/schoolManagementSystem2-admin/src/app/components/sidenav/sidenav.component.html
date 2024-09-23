@@ -1,0 +1,88 @@
+<!--<mat-sidenav-container>-->
+<!--  <mat-sidenav opened mode="side" [style.width]="sidenavwidth" class="d-flex flex-nowrap">-->
+<!--    <div class="d-flex flex-column flex-shrink-0 p-3" style="width: 280px;">-->
+<!--      <ul class="nav nav-pills flex-column mb-auto">-->
+<!--        <li>-->
+<!--          <a [routerLink]="['/dashboard']" routerLinkActive="active"  class="nav-link" aria-current="page">-->
+<!--            <i class="bi-house-fill"></i>-->
+<!--            Dashboard-->
+<!--          </a>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--          <a [routerLink]="['/classroom']" routerLinkActive="active"  class="nav-link link-body-emphasis">-->
+<!--            <i class="bi-house-door-fill"></i>-->
+<!--            Classrooms-->
+<!--          </a>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--          <a href="#" class="nav-link link-body-emphasis">-->
+<!--            <i class="bi-person-circle"></i>-->
+<!--            Teachers-->
+<!--          </a>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--          <a href="#" class="nav-link link-body-emphasis">-->
+<!--            <i class="bi-people-fill"></i>-->
+<!--            Students-->
+<!--          </a>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--          <a href="#" class="nav-link link-body-emphasis">-->
+<!--            <i class="bi-stack"></i>-->
+<!--            Subjects-->
+<!--          </a>-->
+<!--        </li>-->
+<!--      </ul>-->
+<!--    </div>-->
+
+
+<!--  </mat-sidenav>-->
+
+<!--  <mat-sidenav-content class="content" [style.margin-left]="sidenavwidth">-->
+<!--    hello-->
+<!--  </mat-sidenav-content>-->
+
+<!--</mat-sidenav-container>-->
+<!-- ======= Sidebar ======= -->
+<aside id="sidebar" class="sidebar">
+
+  <ul class="sidebar-nav" id="sidebar-nav">
+
+    <li class="nav-item">
+      <a class="nav-link " [routerLink]="['/dashboard']" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+        <i class="bi bi-grid"></i>
+        <span>Dashboard</span>
+      </a>
+    </li><!-- End Dashboard Nav -->
+
+    <li class="nav-item">
+      <a class="nav-link collapsed" [routerLink]="['/classroom']" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+        <i class="bi-house-door-fill"></i>
+        <span>Classrooms</span>
+      </a>
+    </li><!-- End Profile Page Nav -->
+
+    <li class="nav-item">
+      <a class="nav-link collapsed" [routerLink]="['/teacher']" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+        <i class="bi-person-circle"></i>
+        <span>Teachers</span>
+      </a>
+    </li><!-- End F.A.Q Page Nav -->
+
+    <li class="nav-item">
+      <a class="nav-link collapsed" [routerLink]="['/student']" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+        <i class="bi-people-fill"></i>
+        <span>Students</span>
+      </a>
+    </li><!-- End Contact Page Nav -->
+
+    <li class="nav-item">
+      <a class="nav-link collapsed" [routerLink]="['/subject']" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+        <i class="bi-stack"></i>
+        <span>Subjects</span>
+      </a>
+    </li><!-- End Register Page Nav -->
+
+  </ul>
+
+</aside><!-- End Sidebar-->
